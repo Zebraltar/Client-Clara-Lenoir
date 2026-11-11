@@ -39,7 +39,7 @@ around{
         width: 100%;
     }
     .large-48{
-        width: 48px;
+        width: 48%;
     }
     .large-30{
         width: 30px;
@@ -70,4 +70,13 @@ around{
         background-color: black;
         color: #ffff;
         padding: 16px 32px
+}
+.footer-reseaux img {
+  width: 24px;     /* Force la largeur exacte */
+  height: 24px;    /* Force la hauteur exacte */
+  object-fit: contain; /* Évite que l'image ne soit déformée si ses proportions initiales ne sont pas carrées */
+}
+.footer-liens a {
+  text-decoration: none;
+  font-size: 14px;
 }
