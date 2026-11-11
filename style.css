@@ -17,9 +17,9 @@ a{
     flex-wrap: wrap;
 }
 .between{
-    .justify-content: space-between;
+    justify-content: space-between;
 }
-around{
+.around{
     justify-content: space-around;
 }
 .align-center{
@@ -71,12 +71,85 @@ around{
         color: #ffff;
         padding: 16px 32px
 }
-.footer-reseaux img {
-  width: 24px;     /* Force la largeur exacte */
-  height: 24px;    /* Force la hauteur exacte */
-  object-fit: contain; /* Évite que l'image ne soit déformée si ses proportions initiales ne sont pas carrées */
+
+/* Habillage du header */
+    header{
+        text-align: center;
+    }
+
+    .logo{
+        height: auto;
+        width: 250px;
+        text-align: center;
+        object-fit: contain;
+        }
+
+    nav{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    header nav a{
+        margin-right: 25px;
+        font-size: 16px;
+        font-weight: bold;
+
+
+    }
+
+/* Section clients */
+.clients {
+    margin-bottom: 40px;
 }
+
+.avis-cta {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Habillage du CTA Voir mes réalisations */
+.cta-realisations{
+    background-color: #C8A27A;
+    border-radius: 16px;
+    font-weight: bold;
+    padding: 8px;
+}
+
+/* FOOTER */
+
+
+footer{
+    border-top: 2px solid #E8E3DB;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.center {
+    justify-content: center;
+}
+
+
 .footer-liens a {
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  
 }
+
+.footer-reseaux {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.footer-reseaux img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain; /* Évite que l'image ne soit déformée si ses proportions initiales ne sont pas carrées */
+}
+
