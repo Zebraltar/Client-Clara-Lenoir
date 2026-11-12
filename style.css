@@ -115,23 +115,48 @@ body {
         font-size: 20px;
         font-weight: bold;        
     }
-
+/* Titres */
 h1{
     font-size: 60px;
     text-align: center;
     }
 
-    h2,h3,h4{
+h2,h3,h4{
         margin-top: 40px;
         margin-bottom: 20px;
        }
 
+/* L'image du Hero doit rester dans sa div parent */
+.hero-maries{
+    width: 100%;
+}
+ 
+
 .bouton{
    display: flex;
-   justify-content: flex-end;
-
+   justify-content: flex-start;
 }
 
+.approche{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.carte-benefices{
+    background-color: #E8E3DB;
+    border-radius: 16px;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    height:80px;
+}
+
+.couple{
+    max-width: 600px;
+}
 
 /* Habillage du CTA séance */
     .cta-seance{
@@ -168,6 +193,7 @@ h1{
 footer{
     border-top: 2px solid #E8E3DB;
     padding-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -194,6 +220,5 @@ footer{
 .footer-reseaux img {
   width: 36px;
   height: 36px;
-  object-fit: contain; /* Évite que l'image ne soit déformée si ses proportions initiales ne sont pas carrées */
+  object-fit: contain; 
 }
-
