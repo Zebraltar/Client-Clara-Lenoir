@@ -139,8 +139,8 @@ h2,h3,h4{
 
 .approche{
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 .carte-benefices{
     background-color: #E8E3DB;
@@ -152,8 +152,11 @@ h2,h3,h4{
     text-align: center;
     font-weight: bold;
     height:80px;
+    width: 48%;
 }
-
+.container{
+    width: 1200px;
+}
 .couple{
     max-width: 600px;
 }
@@ -171,6 +174,28 @@ h2,h3,h4{
 /* Section clients */
 .clients {
     margin-bottom: 40px;
+}
+
+.cercle{
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 30px;
+
+}
+
+.prestation-et-client{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+.temoins{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 30px;
 }
 
 .avis-cta {
